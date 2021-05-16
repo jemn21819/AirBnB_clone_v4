@@ -42,7 +42,7 @@ List of commands this console current supports:
 #### `web_dynamic/` Directory contains replaced html website with dynamic JavaScripts scripts:
 * API implementation to initialize web application for deployment.
 * [3-header.css](/web_dynamic/static/styles/3-header.css) - Indicator to show whether API is active.
-* [templates](/web_dynamic/templates) - Removed html content to be implemented dynamically through JS scripts.
+* [templates](/web_dynamic/templates) - Removed html content to be implemented dynamically through scripts.
 * [static](/web_dynamic/static/scripts) - JS scripts to implement interactive actions to the website.
 
 #### `models/` directory contains classes used for this project:
