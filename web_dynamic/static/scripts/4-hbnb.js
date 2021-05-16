@@ -18,7 +18,7 @@ $(document).ready(function () {
   });
   $('.filters BUTTON').click(function () {
     $.ajax({
-      data: JSON.stringify({"amenities": Object.keys(amenityCheck)}),
+      data: JSON.stringify({ amenities: Object.keys(amenityCheck) }),
       type: 'POST',
       url: 'http://0.0.0.0:5001/api/v1/places_search',
       contentType: 'application/json',

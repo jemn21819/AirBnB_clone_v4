@@ -1,6 +1,6 @@
-$( document ).ready(function () {
+$(document).ready(function () {
   const amenityCheck = {};
-  $('.amenities INPUT').change(function() {
+  $('.amenities INPUT').change(function () {
     if (this.checked) {
       amenityCheck.push($(this).attr('data-name'));
     } else {

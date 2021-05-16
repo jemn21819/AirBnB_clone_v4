@@ -1,6 +1,6 @@
-$( document ).ready(function () {
+$(document).ready(function () {
   const amenityCheck = {};
-  $('.amenities INPUT').change(function() {
+  $('.amenities INPUT').change(function () {
     if (this.checked) {
       amenityCheck.push($(this).attr('data-name'));
     } else {
@@ -8,14 +8,11 @@ $( document ).ready(function () {
     }
     $('.amenities H4').html(Object.values(amenityCheck).join(', '));
   });
-});
-
-$.get("http://0.0.0.0:5001/api/v1/status/", function(data) {
-  if (data.status === ("OK") {
-    $( "#api_status" ).addClass("available") {
-      else {
-    $( "#api_status" ).removeClass("available")
-      }
+  $.get('http://0.0.0.0:5001/api/v1/status/', function (data) {
+    if (data.status === 'OK') {
+      $('#api_status').addClass('available');
+    } else {
+      $('#api_status').removeClass('available');
     }
   });
 });
