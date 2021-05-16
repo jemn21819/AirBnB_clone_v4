@@ -39,6 +39,12 @@ List of commands this console current supports:
 * `all` - Prints all string representation of all instances based or not on the class name. 
 * `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). 
 
+#### `web_dynamic/` Directory contains replaced html website with dynamic JavaScripts scripts:
+* API implementation to initialize web application for deployment.
+* [3-header.css](/web_dynamic/static/styles/3-header.css) - Indicator to show whether API is active.
+* [templates](/web_dynamic/templates) - Removed html content to be implemented dynamically through scripts.
+* [static](/web_dynamic/static/scripts) - JS scripts to implement interactive actions to the website.
+
 #### `models/` directory contains classes used for this project:
 [base_model.py](/models/base_model.py) - The BaseModel class from which future classes will be derived
 * `def __init__(self, *args, **kwargs)` - Initialization of the base model
@@ -157,7 +163,9 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)  
+Joshua Lopez - [Github](https://github.com/Lohkrii)  
+Jaime Martinez - [Github](https://github.com/jemn21819)  
 
 Second part of Airbnb: Joann Vuong
 ## License
